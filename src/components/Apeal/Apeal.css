@@ -1,0 +1,59 @@
+.ApealWrapper {
+    width: 100vw;
+}
+
+.slideshow {
+    position: relative;
+}
+
+.trainerContainerBox {
+    margin-top: 300%;
+    position: absolute;
+}
+
+.serviceContainer {
+    position: relative;
+    vertical-align:middle;
+    width: 100%;
+}
+
+.serviceWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.serviceDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+
+.serviceTitle {
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    border-radius: 10px;
+    width: 70%;
+    height: 300px;
+    margin-top: 50px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.serviceTi {
+    font-weight: 900;
+    font-size: x-large;
+    margin-top: 0;
+}
+
+.serveceIcon {
+    margin-top: 10px;
+    color: rgb(238, 67, 67);
+}
+
+.serviceAs {
+    margin: 20px 20px 20px 20px;
+}

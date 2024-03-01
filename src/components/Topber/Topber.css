@@ -1,0 +1,52 @@
+.topberContainer {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.topberLeft {
+    flex: 2;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.topberIcon {
+    display: flex;
+    font-size: 50px;
+}
+
+.topberDesc {
+    font-size: 30px;
+}
+
+.topberCenter {
+    flex: 5;
+}
+.pageItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.pageItems > Link {
+   text-decoration: none;
+}
+
+.clickbtn:hover {
+    color: red;
+}
+
+.topbarRight {
+    flex: 2;
+}
+
+.snsIcons {
+    display: flex;
+    justify-content: space-evenly;
+}

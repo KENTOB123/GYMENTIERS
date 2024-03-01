@@ -1,0 +1,123 @@
+.contactContainer {
+    width: 100%;
+}
+
+.contactSamnailbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactSamnailImg {
+    width: 100%;
+}
+
+.contactSamnailImg > img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    filter: grayscale(99%);
+}
+
+.contactSamnailDesc {
+    position: absolute;
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+}
+
+.contactUnderDescWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15%;
+}
+
+.contactleftContainer {
+    width: 45%;
+}
+
+.contactTopTitledesc {
+    padding-top: 30%;
+    padding-bottom: 10%;
+}
+
+.contactTopdesc {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contactTopdetail {
+    padding-top: 10%;
+}
+
+.contactUnderdescBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactUnderBoxies {
+    width: 50%;
+}
+
+.contactUnderBoxiesTitle {
+    font-size: 18px;
+    font-weight: 900;
+    padding-top: 10%;
+}
+
+.contactUnderBoxiesDescSNS {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.contactUnderBoxiesDesc {
+    padding-top: 15px;
+}
+
+.contactRightContainer {
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.contactRightInput {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contactRightTitle {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contactRightInput > input {
+    width: 70%;
+    height: 30px;
+    margin: 10px;
+}
+
+.contactRightInputbarSelect {
+    width: 70%;
+}
+
+.contactRightButton {
+    color: white;
+    background-color: gray;
+    width: 130px;
+    height: 40px;
+    font-weight: 900;
+}
+
+.UnderHrTagName {
+    width: 30%;
+}

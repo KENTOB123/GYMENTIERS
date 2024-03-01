@@ -1,0 +1,33 @@
+.productPriceThumb {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.productPriceThumb > img {
+        object-fit: cover;
+        width: 100%;
+        height: 500px;
+        filter: grayscale(90%);
+}
+
+.productPriceThumbText {
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+}
+
+.productPriceContainer {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+
+.productPricePlan2 {
+    margin-top: 300px;
+    width: 100%;
+    position: absolute;
+}
