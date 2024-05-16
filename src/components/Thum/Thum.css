@@ -1,0 +1,28 @@
+.AboutContainer {
+    padding-bottom: 0px;
+}
+
+.AboutThumnail {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutThumnailImg {
+    width: 100%;
+}
+
+.AboutThumnailImg>img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    filter: grayscale(90%);
+}
+
+.AboutThumnailDesc {
+    position: absolute;
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+}

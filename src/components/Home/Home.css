@@ -1,3 +1,7 @@
 .homeContainer{
  width: 100vw;
 }
+
+.headerIndex {
+    z-index: 100;
+}

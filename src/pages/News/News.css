@@ -6,6 +6,17 @@
     margin-left: 10%;
 }
 
+@media screen and (max-width: 680px) {
+.newsContainer {
+       width: 80%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-left: 10%;
+   }
+}
+
 .newsThamnailbox {
     position: relative;
     display: flex;

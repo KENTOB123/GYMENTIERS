@@ -3,11 +3,17 @@ import "./Price.css";
 import Servise from "../../components/Servise/Servise";
 import Under from "../../components/Under/Under";
 import Topber from "../../components/Topber/Topber";
+import MobileHeder from "../../components/MobileHeder/MobileHeder";
 
 export default function Price() {
   return (
     <div className="productPriceWrapper">
-      <Topber />
+      <div className="pcHeader">
+        <Topber />
+      </div>
+      <div className="mobileHeader">
+        <MobileHeder />
+      </div>
       <div className="productPriceContainer">
         <div className="productPriceThumb">
           <img

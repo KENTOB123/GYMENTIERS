@@ -39,6 +39,15 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 680px) {
+    .servicePersonalPlanContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
 .servicePlanBox {
     margin: 20px;
     width: 400px;

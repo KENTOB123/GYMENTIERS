@@ -12,8 +12,27 @@
     padding-bottom: 5%;
 }
 
+@media screen and (max-width: 680px) {
+.UnderContainer {
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+}
+
 .UnderProducePart {
     width: 30%;
+}
+
+@media screen and (max-width: 680px) {
+    .UnderProducePart {
+        width: 80%;
+    }
 }
 
 .UnderProducePartTop {
@@ -42,6 +61,16 @@
     width: 20%;
 }
 
+@media screen and (max-width: 680px) {
+    .UnderOurservicePart {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .UnderOurservicePartClassTitle {
     font-size: 30px;
     font-weight: 600;
@@ -67,8 +96,14 @@
     width: 20%;
 }
 
-.UnderWorkinghoursPart {
-    width: 20%;
+@media screen and (max-width: 680px) {
+    .UnderWorkinghoursPart {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .UnderWorkinghoursPartTitle {

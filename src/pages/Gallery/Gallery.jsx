@@ -1,7 +1,5 @@
 import React from "react";
 import "./Gallery.css";
-import Topber from "../../components/Topber/Topber";
-import Under from "../../components/Under/Under";
 
 export default function Gallery() {
   return (
@@ -10,7 +8,7 @@ export default function Gallery() {
         <div className="galleryContainer">
           <div className="galleryTextBox">
             <div className="galleryTextTitle">Our Workplace Gallery</div>
-            <p class="galleryTextDesc">
+            <p className="galleryTextDesc">
               当ジムはモダンな雰囲気をコンセプトに設計しております。器具は最新鋭のマシンを取り揃えております。心地よい環境で自己研鑽に励んでください
             </p>
           </div>

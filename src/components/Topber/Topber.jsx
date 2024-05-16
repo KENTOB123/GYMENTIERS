@@ -1,10 +1,7 @@
-import React from "react";
 import "./Topber.css";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { SiOpenaigym } from "react-icons/si";
-import Gallery from "../../pages/Gallery/Gallery";
-import About from "../../pages/About/About";
 import { Link } from "react-router-dom";
 
 export default function Topber() {

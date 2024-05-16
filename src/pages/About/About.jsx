@@ -6,11 +6,17 @@ import Topber from "../../components/Topber/Topber";
 import Under from "../../components/Under/Under";
 import { Link } from "react-router-dom";
 import Contact from "../Contact/Contact";
+import MobileHeder from "../../components/MobileHeder/MobileHeder";
 
 export default function About() {
   return (
     <div className="AboutWrapper">
-      <Topber />
+      <div className="pcHeader">
+        <Topber />
+      </div>
+      <div className="mobileHeader">
+        <MobileHeder />
+      </div>
       <div className="AboutContainer">
         <div className="AboutThumnail">
           <div className="AboutThumnailImg">

@@ -7,6 +7,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import Topber from "../../components/Topber/Topber";
 import Under from "../../components/Under/Under";
 import Select from "react-select";
+import MobileHeder from "../../components/MobileHeder/MobileHeder";
 
 export default function Contact() {
   const options = [
@@ -17,7 +18,12 @@ export default function Contact() {
 
   return (
     <div className="contactWrapper">
-      <Topber />
+      <div className="pcHeader">
+        <Topber />
+      </div>
+      <div className="mobileHeader">
+        <MobileHeder />
+      </div>
       <div className="contactContainer">
         <div className="contactSamnailbar">
           <div className="contactSamnailImg">

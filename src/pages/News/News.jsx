@@ -2,11 +2,17 @@ import React from "react";
 import "./News.css";
 import Topber from "../../components/Topber/Topber";
 import Under from "../../components/Under/Under";
+import MobileHeder from "../../components/MobileHeder/MobileHeder";
 
 export default function News() {
   return (
     <div className="newsWrapper">
-      <Topber />
+      <div className="pcHeader">
+        <Topber />
+      </div>
+      <div className="mobileHeader">
+        <MobileHeder />
+      </div>
       <div className="newsThamnailbox">
         <img src="/assets/gym3.jpg" alt="" />
         <div className="newsThamnailtitlebox">Blog</div>

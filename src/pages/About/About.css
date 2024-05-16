@@ -43,11 +43,28 @@
     height: 50%;
 }
 
+@media screen and (max-width: 680px) {
+.AboutWhoweareTextBoXContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
 .AboutWhoweareTextBoXes {
     display: flex;
     flex-flow: column;
     height: 100%;
     width: 50%;
+}
+
+@media screen and (max-width: 680px) {
+    .AboutWhoweareTextBoXes {
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        width: 90%;
+    }
 }
 
 .AboutWhoweareTextBox {
@@ -58,6 +75,13 @@
     font-style: oblique;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 680px) {
+.AboutWhoweareTextBox {
+    width: 100%;
+    }
+}
+
 
 .AboutWhoweareTextTiltle {
     font-size: 40px;
@@ -114,8 +138,28 @@
     height: 700px;
 }
 
+@media screen and (max-width: 680px) {
+.AboutOurhistoryContainer {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 1400px;
+        gap: 20px
+    }
+}
+
+
 .AboutOurhistoryBox {
     width: 50%;
+}
+
+@media screen and (max-width: 680px) {
+.AboutOurhistoryBox {
+        width: 100%;
+    }
 }
 
 .AboutOurhistoryBox > img {
