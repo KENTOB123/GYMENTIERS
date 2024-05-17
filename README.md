@@ -47,7 +47,7 @@ Build with:
 » React JS  
 » css  
 
-Live demo 👉 : [[https://car-rental-service-kappa.vercel.app/](https://car-rental-service-kappa.vercel.app/)](https://gymentiers.vercel.app/)
+Live demo 👉 : (https://gymentiers.vercel.app/)
 
 
 PreView 💻
