@@ -1,70 +1,36 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**About Project**
 
-## Available Scripts
+A Car Rental website provides easy ride and share on internet.
+Customer can compare some car's detail, price, where rental place, fuel and images on website and rental a car.
+The reason of why I made this website is that just I like cars and I would like to try to make usefull website by myself.
+I taked care about responsive design.
 
-In the project directory, you can run:
+インターネットから予約できるカーレンタルサービスサイトを作成しました。
+お客様がネット上でレンタカーの性能、画像、価格、返却場所などが選べるようになっています。
+このサイトを作成した理由としては、単に私が車好きであるということはもちろんですが
+自分自身の力でお客様にとって便利なサイトを作りに挑戦したいと思ったからです。
+特にレスポンシブで見やすいサイト制作に注力しました。
 
-### `npm start`
+Build with:  
+» tailwindCss  
+» React JS  
+» Next Js  
+» TypeScript  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Live demo 👉 : [https://car-rental-service-kappa.vercel.app/](https://car-rental-service-kappa.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+PreView 💻
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Main Page
+<img width="1219" alt="スクリーンショット 2024-05-15 13 46 10" src="https://github.com/KENTOB123/car-rental-service/assets/153715564/b3c6c121-8b0c-4d96-bd75-4ac73b6013d2">
 
-### `npm run build`
+Comparing Car Page
+<img width="1223" alt="スクリーンショット 2024-05-15 13 46 22" src="https://github.com/KENTOB123/car-rental-service/assets/153715564/d70ef81e-5251-498c-a011-5e9c5ef8fa4c">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Faq Page
+<img width="1220" alt="スクリーンショット 2024-05-15 13 46 32" src="https://github.com/KENTOB123/car-rental-service/assets/153715564/fb17a441-09db-401c-9c96-cad69b7fdfc2">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contact Page
+<img width="1219" alt="スクリーンショット 2024-05-15 13 46 54" src="https://github.com/KENTOB123/car-rental-service/assets/153715564/11359a3a-d485-48cd-8d77-52a4cb2332ad">
