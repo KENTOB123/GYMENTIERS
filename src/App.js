@@ -1,7 +1,5 @@
 import './App.css';
 import Home from './components/Home/Home';
-import Topber from './components/Topber/Topber';
-import Under from './components/Under/Under';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Facility from './pages/Facility/Facility';

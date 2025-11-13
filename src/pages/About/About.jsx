@@ -5,7 +5,6 @@ import CallMissedOutgoingIcon from "@mui/icons-material/CallMissedOutgoing";
 import Topber from "../../components/Topber/Topber";
 import Under from "../../components/Under/Under";
 import { Link } from "react-router-dom";
-import Contact from "../Contact/Contact";
 import MobileHeder from "../../components/MobileHeder/MobileHeder";
 
 export default function About() {
